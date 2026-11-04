@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Within how many months prior to the policy's effective date must a physician's recommended or received medical advice or treatment have occurred to be covered?",
+    "source": "HDFC-Policy-Document.pdf",
+    "page": 30
+  },
+  {
+    "question": "What is the formula used to calculate the paid-up benefit when benefits are reduced?",
+    "source": "HDFC-Policy-Document.pdf",
+    "page": 13
+  },
+  {
+    "question": "What is the fax number listed for the Mumbai Office of the Insurance Ombudsman?",
+    "source": "HDFC-Policy-Document.pdf",
+    "page": 21
+  },
+  {
+    "question": "What is the TNM classification threshold for thyroid cancers to be considered?",
+    "source": "HDFC-Policy-Document.pdf",
+    "page": 24
+  },
+  {
+    "question": "What is the email address for the Lucknow Office of the Insurance Ombudsman?",
+    "source": "HDFC-Policy-Document.pdf",
+    "page": 20
+  },
+  {
+    "question": "What documentation is required to support a maturity claim?",
+    "source": "HDFC-Policy-Document.pdf",
+    "page": 15
+  },
+  {
+    "question": "Within what time frame must a complaint be filed with the Insurance Ombudsman after the company's rejection of the complainant's representation?",
+    "source": "HDFC-Policy-Document.pdf",
+    "page": 22
+  },
+  {
+    "question": "When does Unexpired Risk Premium Value get acquired for a Limited Pay policy?",
+    "source": "HDFC-Policy-Document.pdf",
+    "page": 12
+  },
+  {
+    "question": "According to the passage, who is authorized to receive the Sum Assured when the Nominee is a minor?",
+    "source": "HDFC-Policy-Document.pdf",
+    "page": 6
+  },
+  {
+    "question": "Which policy term shows a 51% rate in policy year 46?",
+    "source": "HDFC-Policy-Document.pdf",
+    "page": 36
+  },
+  {
+    "question": "What net cash outflow is expected if the final dividend of ₹25 per equity share for the financial year ended March 31 2026 is approved by shareholders?",
+    "source": "infosys-ar-26.pdf",
+    "page": 323
+  },
+  {
+    "question": "What is the page number listed for section 2.19 Other income, net?",
+    "source": "infosys-ar-26.pdf",
+    "page": 194
+  },
+  {
+    "question": "Did the Company accept any fixed deposits from the public during fiscal 2026?",
+    "source": "infosys-ar-26.pdf",
+    "page": 38
+  },
+  {
+    "question": "How many independent directors serve on the Stakeholders Relationship Committee?",
+    "source": "infosys-ar-26.pdf",
+    "page": 112
+  },
+  {
+    "question": "Which institute issued the auditing standards that the auditor followed?",
+    "source": "infosys-ar-26.pdf",
+    "page": 60
+  },
+  {
+    "question": "Who serves as the chairperson of Infosys' Cybersecurity Risk Sub-committee as of March 31, 2026?",
+    "source": "infosys-ar-26.pdf",
+    "page": 110
+  },
+  {
+    "question": "How many ESG-related topics are listed for the 100 Key Managerial Personnel in the passage?",
+    "source": "infosys-ar-26.pdf",
+    "page": 152
+  },
+  {
+    "question": "How many square feet of commercial buildings have been onboarded as lighthouse projects by ASSURE in its first year?",
+    "source": "infosys-ar-26.pdf",
+    "page": 29
+  },
+  {
+    "question": "What technology does the internal IT team use to minimize data center physical footprint and reduce power consumption?",
+    "source": "infosys-ar-26.pdf",
+    "page": 71
+  },
+  {
+    "question": "What was the percentage of R&D investments in specific technologies to improve environmental and social impacts in Fiscal 2026?",
+    "source": "infosys-ar-26.pdf",
+    "page": 155
+  },
+  {
+    "question": "In the given code, what value is assigned to the variable increment?",
+    "source": "Python Programming txtbook.pdf",
+    "page": 141
+  },
+  {
+    "question": "What command should you press to close the help window when using Python's help() functionality?",
+    "source": "Python Programming txtbook.pdf",
+    "page": 31
+  },
+  {
+    "question": "What term do some programming languages use instead of 'function', as mentioned in the passage?",
+    "source": "Python Programming txtbook.pdf",
+    "page": 64
+  },
+  {
+    "question": "What error does Python raise when evaluating the expression 10 * (1 / 0)?",
+    "source": "Python Programming txtbook.pdf",
+    "page": 83
+  },
+  {
+    "question": "According to the passage, between which two numbers should the Python script find all prime numbers?",
+    "source": "Python Programming txtbook.pdf",
+    "page": 62
+  },
+  {
+    "question": "In the given Python code example, what is the output of the second print statement?",
+    "source": "Python Programming txtbook.pdf",
+    "page": 71
+  },
+  {
+    "question": "What is the name of the Python standard library module that includes functions like sin(x), cos(x), log(), and constants such as pi and e?",
+    "source": "Python Programming txtbook.pdf",
+    "page": 45
+  },
+  {
+    "question": "What initial values are assigned to fib1 and fib2 in the Python script example?",
+    "source": "Python Programming txtbook.pdf",
+    "page": 60
+  },
+  {
+    "question": "What value is printed by the Python code that defines add(x, y) and then sets x = 2, y = 5, calls add(x, y) and prints the result?",
+    "source": "Python Programming txtbook.pdf",
+    "page": 65
+  },
+  {
+    "question": "What is the command to uninstall a Python package using PIP?",
+    "source": "Python Programming txtbook.pdf",
+    "page": 90
+  },
+  {
+    "question": "What limitations of the current model components are highlighted, specifically regarding generalizability, input reliance, and validation against pathology‑confirmed cohorts?",
+    "source": "Research paper.pdf",
+    "page": 6
+  },
+  {
+    "question": "Which researchers developed a multimodal AI framework combining convolutional neural networks (CNNs) and artificial neural networks (ANNs) for simultaneous imaging and clinical data analysis?",
+    "source": "Research paper.pdf",
+    "page": 1
+  },
+  {
+    "question": "What were the age, gender, and smoking history of test case LIDC-IDRI-0007?",
+    "source": "Research paper.pdf",
+    "page": 3
+  },
+  {
+    "question": "What are the two explainability methods combined in LungInsight's synchronized dual-domain explainability?",
+    "source": "Research paper.pdf",
+    "page": 6
+  },
+  {
+    "question": "In which journal was the article titled \"Automated classification and explainable AI analysis of lung cancer stages using EfficientNet and gradient-weighted class activation mapping\" published?",
+    "source": "Research paper.pdf",
+    "page": 6
+  },
+  {
+    "question": "What risk threshold triggers the Histology Classification model?",
+    "source": "Research paper.pdf",
+    "page": 3
+  },
+  {
+    "question": "What technologies are combined in LungInsight to provide both clinical feature attribution and spatial radiological localization?",
+    "source": "Research paper.pdf",
+    "page": 1
+  },
+  {
+    "question": "Which dataset is used as the benchmark for automated classification and nodule detection in the studies by Alqahtani et al. and Salhi et al.?",
+    "source": "Research paper.pdf",
+    "page": 2
+  },
+  {
+    "question": "What are the two explainability techniques employed by LungInsight for clinical feature attribution and CT image localization?",
+    "source": "Research paper.pdf",
+    "page": 1
+  },
+  {
+    "question": "What specific type of explainability is noted as absent in current decision-support systems for clinical diagnostics?",
+    "source": "Research paper.pdf",
+    "page": 2
+  }
+]
