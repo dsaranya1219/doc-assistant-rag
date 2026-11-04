@@ -1,8 +1,5 @@
 import streamlit as st
 
-from core import ask
-from ingest import ingest_pdf
-
 st.set_page_config(page_title="Document Assistant", page_icon="📄")
 st.title("Document Assistant")
 st.caption(
@@ -20,8 +17,14 @@ if uploaded is not None and st.session_state.last_file != (uploaded.name, upload
     if uploaded.size > 10 * 1024 * 1024:
         st.error("File is too large (max 10 MB).")
     else:
-        with st.spinner("Processing PDF, please wait..."):
-            info = ingest_pdf(uploaded.getvalue(), uploaded.name)
+        with st.spinner("Processing PDF... the first time takes a minute while the models load."):
+            try:
+                from ingest import ingest_pdf
+
+                info = ingest_pdf(uploaded.getvalue(), uploaded.name)
+            except Exception as e:
+                st.error(f"Upload failed: {e}")
+                st.stop()
         st.session_state.last_file = (uploaded.name, uploaded.size)
         if info["chunks"] == 0:
             st.session_state.upload_msg = "No readable text found. Scanned PDFs are not supported."
@@ -44,11 +47,13 @@ if st.session_state.active_doc:
 question = st.text_input("Ask about your documents...")
 
 if st.button("Ask") and question.strip():
-    with st.spinner("Thinking..."):
+    with st.spinner("Thinking... the first question takes a minute while the models load."):
         try:
+            from core import ask
+
             result = ask(question, source=st.session_state.active_doc)
-        except Exception:
-            st.error("Something went wrong. Please try again.")
+        except Exception as e:
+            st.error(f"Something went wrong: {e}")
             st.stop()
 
     st.subheader("What your PDF says")
