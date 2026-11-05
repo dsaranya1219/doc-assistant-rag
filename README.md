@@ -1,8 +1,4 @@
----
-title: ...
-sdk: docker
-...
----
+
 
 # Document Assistant (RAG)
 
