@@ -1,10 +1,7 @@
 ---
-title: Document Assistant
-emoji: 📄
-colorFrom: indigo
-colorTo: blue
+title: ...
 sdk: docker
-app_port: 7860
+...
 ---
 
 # Document Assistant (RAG)
