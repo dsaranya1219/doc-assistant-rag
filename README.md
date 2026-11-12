@@ -1,22 +1,8 @@
-
-
 # Document Assistant (RAG)
 
 Upload any PDF and ask questions about it. Each answer shows what the PDF says, a simple explanation, key points to remember, and practice exam questions, with page citations.
 
 **Live demo:** https://doc-assistant-rag-3zrwyqpttdfdmcqz7yvgdl.streamlit.app
-
-## Evaluation (40 questions)
-
-| Metric | Without reranker | With reranker |
-|---|---|---|
-| Correct page in top 1 | 52.5% | 80% |
-| Correct page in top 5 | 85% | 90% |
-| Correct document in top 1 | 97.5% | 100% |
-
-## Tech stack
-
-Python, Streamlit, Qdrant Cloud, fastembed (all-MiniLM-L6-v2 embeddings, ms-marco-MiniLM-L-6-v2 reranker), Groq (openai/gpt-oss-120b), Pydantic
 
 ## How it works
 
@@ -48,7 +34,7 @@ Reproduce with `python eval.py baseline` and `python eval.py reranked`.
 
 ## Tech stack
 
-Python, Streamlit, Qdrant, fastembed (ONNX embeddings and reranker), Groq API, Pydantic (answer schema validation), Docker.
+Python, Streamlit, Qdrant Cloud, fastembed (ONNX embeddings and reranker), Groq API (openai/gpt-oss-120b), Pydantic (answer schema validation).
 
 ## Run locally
 
